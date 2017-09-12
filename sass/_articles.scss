@@ -1,0 +1,47 @@
+#articles {
+
+  a {
+    text-transform:$text-lowercase;
+    font-weight:$font-bold;
+    text-decoration:none;
+    color:$color-body;
+  }
+  a:hover {
+    color:$color-hyperlink;
+  }
+  img {
+      float:left;
+      width:375px;
+      height:auto;
+      box-sizing:border-box;
+      padding-top:35px;
+      clear:both;
+      @media screen and (max-width:1200px){
+        display:none;
+      }
+  }
+}
+h3 {
+    width:575px;
+    font-size:$main-heading-font;
+    color:$color-body;
+    margin:30 0 10;
+    @media screen and (max-width:720px) {
+        padding-left:0;
+        margin-left:0;
+        font-size:1.7em;
+        width:285px;
+        margin-top:15px;
+    }
+}
+p {
+  @media screen and (max-width:720px) {
+    font-size:1.2em;
+    padding-left:0;
+    width:285px;
+}
+}
+
+ul {
+    list-style:none;
+}

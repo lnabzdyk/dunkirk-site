@@ -1,0 +1,73 @@
+#info {
+      float:left;
+      @media screen and (max-width:1200px) {
+        width:400px;
+        margin-bottom:100px;
+    }
+    h3 {
+        font-size:3.2em;
+        color:$color-fill;
+        margin-bottom:5px;
+        margin-top:45px;
+        width:700;
+        @media screen and (max-width:1200px)
+        {
+             width:375px;
+             font-size:3em;
+         }
+         @media screen and (max-width:720px){
+             margin-top:25px;
+             font-size:2.1em;
+             width:275px;
+         }
+    }
+    p {
+        font-size:$font-body;
+        color:$color-body;
+        width:600px;
+        padding:5 0;
+        margin:0;
+        font-weight:400;
+        @media screen and (max-width:1200px) {
+            width:375px;
+        }
+        @media screen and (max-width:720px) {
+            width:275;
+            font-size:1.2em;
+        }
+    }
+    .price {
+        font-family:$fontfamily-headings;
+        font-size:2.1em;
+        font-weight:$font-semibold;
+        margin-top:8;
+        margin-bottom:15;
+        color:$color-fill;
+    }
+    .purchase {
+        background-color:$color-body;
+        color:white;
+        box-sizing: border-box;
+        padding:10;
+        margin-top:25;
+        width:210;
+        text-align:center;
+        text-transform: $text-lowercase;
+        font-family:$fontfamily-headings;
+        a {
+            color:white;
+            text-decoration:none;
+        }
+        a:hover {
+            color:$color-hyperlink;
+          }
+    }
+    ul {
+        font-size:1.2em;
+        list-style:none;
+        font-family:$fontfamily-body;
+        padding:10 0;
+        margin:0 ;
+        color:$color-body;
+    }
+}

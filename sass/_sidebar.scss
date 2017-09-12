@@ -1,0 +1,172 @@
+#sidebar {
+    margin:0;
+    float:left;
+    width:425px;
+    box-sizing:border-box;
+    padding:0 20;
+    @media screen and (max-width:1200px) {
+        width:35%;
+        float:right;
+        padding:0;
+        margin:0;
+        height:auto;
+    }
+    @media screen and (max-width:720px) {
+        width:100%;
+        float:none;
+        padding:0;
+        margin:0;
+        height:auto;
+    }
+
+    a:hover {
+        color:$color-hyperlink;
+    }
+    h3 {
+       margin:auto;
+       font-size:2.1em;
+       float:right;
+       text-align:center;
+       width:125;
+       padding:80 20 75 10;
+       @media screen and (max-width:1200px){
+           width:100%;
+           font-size:$font-body;
+           padding:45px 15;
+           margin:auto;
+           float:none;
+       }
+   }
+   li  {
+       margin:0;
+       background-color:$color-fill;
+       box-sizing:border-box;
+       padding:0 15 0 15;
+       height:225;
+       margin-top:55;
+       width:400px;
+       margin-top:55;
+       @media screen and (max-width:1200px) {
+          float:right;
+          width:100%;
+          padding:0;
+          margin:20px 0;
+          height:130px;
+      }
+      @media screen and (max-width:720px) {
+            background-color:white;
+            height:175px;
+        }
+       a {
+           text-decoration:none;
+           font-weight:400;
+           color:white;
+       }
+   }
+   .feature {
+       margin:35 0;
+       background:none;
+       font-family: $fontfamily-headings;
+       font-size:3.6em;
+       color:2b7a91;
+       font-weight:$font-semibold;
+       text-transform: $text-lowercase;
+       width:420;
+       height:15;
+
+   }
+   .left h3 {
+       margin:auto;
+       float:left;
+       padding-left:30px;
+       padding-right:30px;
+       @media screen and (max-width:1200px) {
+           width:90%;
+           font-size:$font-body;
+           padding:45px 0;
+           margin:auto;
+           float:none;
+       }
+
+       @media screen and (max-width:720px) {
+           margin-top:45px;
+        }
+
+   }
+   .left img {
+      width:185px;
+      height:auto;
+      position:relative;
+      @media screen and (max-width:1200px) {
+          width:45%;
+          float:left;
+          padding:0 15;
+          margin:0;
+      }
+   }
+   .right img {
+       width:185px;
+       height:auto;
+       position:relative;
+       padding:0;
+       @media screen and (max-width:1200px) {
+           width:45%;
+           padding:0 10;
+           float:right;
+           margin:0;
+       }
+   }
+   .view {
+       background:none;
+       a {
+           font-family:$fontfamily-body;
+           font-weight:$font-semibold;
+           color:$color-body;
+           padding-left:245;
+           @media screen and (max-width:720px) {
+               float:left;
+               width:100%;
+               padding-left:185px;
+               font-weight:100;
+           }
+
+       }
+       .view a:hover {
+           color:$color-hyperlink;
+       }
+   }
+}
+ul {
+    list-style:none;
+    padding:0;
+}
+.except {
+    text-transform:$text-lowercase;
+    font-weight:$font-bold;
+    font-size:$main-heading-font;
+    color:$color-body;
+    margin-bottom:auto;
+    margin-left:115px;
+    a:hover {
+      color:$color-hyperlink;
+    }
+    @media screen and (max-width:1200px) {
+      margin:0;
+      padding:15 25 5;
+    }
+}
+@media screen and (max-width:1200px) {
+  #main #sidebar .feature {
+      font-size:2.4em;
+      padding:0;
+      width:100%;
+      margin:25 0 20 0;
+      height:auto;
+  }
+  #main #sidebar li a {
+      color:white;
+    }
+  #main #sidebar li a:hover {
+    color: $color-hyperlink;
+  }
+}
