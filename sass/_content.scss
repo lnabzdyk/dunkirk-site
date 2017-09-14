@@ -3,12 +3,12 @@
     width:770px;
     padding:15px 310px 10px 115px;
     @media screen and (max-width:1200px) {
-            padding:0 25;
+            padding:0px 25px;
             width:90%;
         }
     img {
         width:775px;
-        margin:0;
+        margin:0px;
         @media screen and (max-width:1200px){
             width:100%;
             height:auto;
@@ -17,14 +17,14 @@
     li img {
        width:500px;
        margin:auto;
-       padding:25 75;
+       padding:25px 75px;
    }
    td {
-       padding:15;
+       padding:15px;
        color: $color-body;
        @media screen and (max-width:720px) {
            font-size:.8em;
-           margin-left:0;
+           margin-left:0px;
            padding:10px;
       }
    }
@@ -35,13 +35,13 @@
        color: $color-body;
        @media screen and (max-width:720px)  {
            font-size:.8em;
-           padding:10px
+           padding:10px;
        }
    }
    .title p {
        font-family: $fontfamily-headings;
-       margin:0;
-       padding:10 0;
+       margin:0px;
+       padding:10px 0px;
    }
    ul {
        list-style:none;
@@ -50,16 +50,16 @@
 #words {
     float:right;
     clear:both;
-    padding:55px 400px 0 0;
+    padding:55px 400px 0px 0px;
     @media screen and (max-width:1200px) {
          float:right;
-         padding:45px 70px 0 0;
-         margin:0;
+         padding:45px 70px 0px 0px;
+         margin:0px;
      }
     @media screen and (max-width:720px) {
          font-size:62.5%;
          width:115px;
-         padding:10px 0 10px 0;
+         padding:10px 0px 10px 0px;
      }
 }
 .year {

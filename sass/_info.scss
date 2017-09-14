@@ -9,7 +9,7 @@
         color:$color-fill;
         margin-bottom:5px;
         margin-top:45px;
-        width:700;
+        width:700px;
         @media screen and (max-width:1200px)
         {
              width:375px;
@@ -25,14 +25,14 @@
         font-size:$font-body;
         color:$color-body;
         width:600px;
-        padding:5 0;
-        margin:0;
+        padding:5px 0px;
+        margin:0px;
         font-weight:400;
         @media screen and (max-width:1200px) {
             width:375px;
         }
         @media screen and (max-width:720px) {
-            width:275;
+            width:275px;
             font-size:1.2em;
         }
     }
@@ -40,17 +40,17 @@
         font-family:$fontfamily-headings;
         font-size:2.1em;
         font-weight:$font-semibold;
-        margin-top:8;
-        margin-bottom:15;
+        margin-top:8px;
+        margin-bottom:15px;
         color:$color-fill;
     }
     .purchase {
         background-color:$color-body;
         color:white;
         box-sizing: border-box;
-        padding:10;
-        margin-top:25;
-        width:210;
+        padding:10px;
+        margin-top:25px;
+        width:210px;
         text-align:center;
         text-transform: $text-lowercase;
         font-family:$fontfamily-headings;
@@ -66,8 +66,8 @@
         font-size:1.2em;
         list-style:none;
         font-family:$fontfamily-body;
-        padding:10 0;
-        margin:0 ;
+        padding:10px 0px;
+        margin:0px;
         color:$color-body;
     }
 }

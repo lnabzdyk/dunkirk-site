@@ -8,7 +8,7 @@ body {
     font-weight:normal;
     width:1200px;
     margin:auto;
-    padding:0;
+    padding:0px;
     @media screen and (max-width:1200px) {
         width:720px;
     }
@@ -33,7 +33,7 @@ footer {
     }
 
     p {
-        margin:0;
+        margin:0px;
         padding-left:25px;
         width:95%;
         line-height:1.6em;
@@ -44,7 +44,7 @@ h1 {
     font-weight:300;
     margin-bottom:auto;
     text-transform:$text-lowercase;
-    padding:0;
+    padding:0px;
     @media screen and (max-width:1200px)
     {
         font-size:2.4em;
@@ -52,7 +52,7 @@ h1 {
     a {
         text-decoration:none;
         color:6798a9;
-        padding:0;
+        padding:0px;
 
     }
 }
@@ -77,8 +77,8 @@ header img {
 
     @media screen and (max-width:720px) {
           width:60%;
-          padding:10px 5px 0 5px;
-          margin:0;
+          padding:10px 5px 0px 5px;
+          margin:0px;
       }
 }
 img {
